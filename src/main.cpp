@@ -11,7 +11,7 @@ char daysOfTheWeek[7][12] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 void setup () {
  while (!Serial); 
  Serial.begin(9600);
- 
+ Serial.print("Initializing system");
   lcd.init();
   lcd.backlight();
   lcd.clear();
